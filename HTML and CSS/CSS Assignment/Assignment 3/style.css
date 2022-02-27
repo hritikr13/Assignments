@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+div h1{
+    text-transform: uppercase;
+}
+div h2{
+    text-transform: lowercase;
+}
+div h3{
+    text-transform: none;
+}

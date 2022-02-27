@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Learning HTML Forms</title>
+</head>
+<style>
+    body{
+        background-color: brown;
+    }
+</style>
+<body>
+
+   <h1>HTML Forms</h1>
+
+   <form>
+       <label for="username">enter username:</label>
+       <input type="text" id = "username" required>
+       <br><br>
+       <label for="email">enter email:</label>
+       <input type="email" id = "email" required>
+       <br><br>
+       <label for="password">enter password</label>
+       <input type="password" id = "password" required>
+
+       <p>Select your age:</p>
+
+       <input type="radio" name="age" value="0-25" id="option-1">
+       <label for="option-1">0-25</label>
+       <br>
+       <input type="radio" name="age" value="26-50" id="option-2">
+       <label for="option-2">26-50</label>
+       <br>
+       <input type="radio" name="age" value="51+" id="option-3">
+       <label for="option-3">51+</label>
+       <br><br>
+
+       <label for="question">Security Question</label>
+       <select name="question" id="question">
+           <option value="q1">Your favorite movie </option>
+           <option value="q2">Your favorite sport</option>
+       </select>
+       <br><br>
+
+       <label for="answer">Answer</label>
+       <input type="text" id="answer">
+       <br><br>
+
+       <input type="submit" value = "submit">
+   </form>
+
+</body>
+</html>
