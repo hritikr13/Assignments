@@ -1,1 +1,1 @@
-Capgemini Adapt Program Assignments 
+ Adapt Program Assignments 
